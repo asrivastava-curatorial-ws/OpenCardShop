@@ -1,0 +1,11 @@
+{
+  "source_archive_sha256": "aa2a0ba30561895b0408990682af2a8b74fe7c3f7bbddbfab9bc50b7233c66eb",
+  "original_files_compared": 2041,
+  "all_original_bytes_equal": true,
+  "separately_supplied_executable": {
+    "file_name": "CARDSHOP.EXE",
+    "size_bytes": 247472,
+    "sha256": "2570a011ab396be084927c71e67d49bb8b38515e0ed9466fcbca5b81945205e0",
+    "matches_uploaded_bytes": true
+  }
+}

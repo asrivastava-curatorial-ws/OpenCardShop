@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=OpenCardShop
+GenericName=Greeting Card Designer
+Comment=Design, personalise and print folded greeting cards
+Exec=opencardshop %f
+Icon=opencardshop
+Terminal=false
+Categories=Graphics;Office;
+MimeType=application/x-opencardshop-card;
+Keywords=card;greeting;birthday;invitation;print;fold;
+StartupWMClass=OpenCardShop

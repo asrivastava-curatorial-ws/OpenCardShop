@@ -1,0 +1,30 @@
+[
+  {
+    "case": "top-legal.pdf",
+    "exit_code": 0,
+    "dimensions": [
+      1008.0,
+      612.0
+    ]
+  },
+  {
+    "case": "side-letter.png",
+    "exit_code": 0,
+    "dimensions": [
+      2550,
+      3300
+    ]
+  },
+  {
+    "case": "card-legal.pdf",
+    "exit_code": 0,
+    "dimensions": [
+      612.0,
+      1008.0
+    ]
+  },
+  {
+    "case": "invalid margin rejected",
+    "exit_code": 1
+  }
+]

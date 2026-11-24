@@ -1,0 +1,2 @@
+# Pillow is the only non-stdlib Python library. Tk is supplied by your OS.
+Pillow>=9.0

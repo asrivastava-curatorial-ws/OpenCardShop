@@ -1,0 +1,29 @@
+[
+  {
+    "file": "a4-side-fold-test.pdf",
+    "pages": 1,
+    "size_points": [
+      595.2000122070312,
+      841.9199829101562
+    ],
+    "bytes": 228643
+  },
+  {
+    "file": "a4-top-fold-test.pdf",
+    "pages": 1,
+    "size_points": [
+      841.9199829101562,
+      595.2000122070312
+    ],
+    "bytes": 231513
+  },
+  {
+    "file": "legal-side-fold-test.pdf",
+    "pages": 1,
+    "size_points": [
+      612.0,
+      1008.0
+    ],
+    "bytes": 265625
+  }
+]

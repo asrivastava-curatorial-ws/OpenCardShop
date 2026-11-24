@@ -1,0 +1,41 @@
+[
+  {
+    "source": "examples/birthday-side-fold.occard",
+    "paper": "A4",
+    "pages": 1,
+    "page_points": [
+      595.2,
+      841.92
+    ],
+    "display_present": false
+  },
+  {
+    "source": "examples/christmas-top-fold.occard",
+    "paper": "Letter",
+    "pages": 1,
+    "page_points": [
+      792.0,
+      612.0
+    ],
+    "display_present": false
+  },
+  {
+    "source": "examples/certificate-full-page.occard",
+    "paper": "A4",
+    "pages": 1,
+    "page_points": [
+      595.2,
+      841.92
+    ],
+    "display_present": false
+  },
+  {
+    "source": "assets/original/BDAY/BDAY1.CMK",
+    "side": "inside",
+    "pixels": [
+      2550,
+      1650
+    ],
+    "display_present": false
+  }
+]

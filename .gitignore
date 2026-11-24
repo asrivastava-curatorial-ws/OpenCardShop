@@ -1,0 +1,22 @@
+# CardShop Plus content (copyrighted): your own CD or the private asset pack. Never commit it.
+/assets/original/*
+!/assets/original/README.md
+/assets/rendered/
+/assets/ASSET_PACK.*
+/examples/*.occard
+/examples/*.png
+/docs/Original_CardShopPlus_help.txt
+*.ISO
+*.iso
+
+# Saved cards embed artwork and fonts; the open starter pack's cards are the exception
+*.occard
+!/assets/starter/cards/*.occard
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build output
+/dist/

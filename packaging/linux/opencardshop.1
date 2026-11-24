@@ -1,0 +1,92 @@
+.TH OPENCARDSHOP 1 "November 2026" "OpenCardShop @VERSION@" "User Commands"
+.SH NAME
+opencardshop \- design, personalise and print folded greeting cards
+.SH SYNOPSIS
+.B opencardshop
+.RI [ CARD ]
+.br
+.B opencardshop
+.I CARD
+.B \-\-export
+.IR OUTPUT .pdf|.png
+.RI [ options ]
+.br
+.B opencardshop \-\-test\-page \-\-fold
+.BR side | top | full
+.B \-\-export
+.IR OUTPUT .pdf
+.SH DESCRIPTION
+OpenCardShop is an offline greeting-card editor. It opens saved
+.I .occard
+cards and original CardShop Plus
+.I .CMK
+cards, and prints quarter-fold cards on one side of a single A4, Letter or Legal sheet.
+.PP
+An open starter pack (clipart, fonts, messages and ready-made cards) is included, and
+the fonts installed on the computer are offered. Pictures, messages and designs saved
+to \fBMy library\fR are kept per user and can be used in every card.
+CardShop Plus content is not included; choose your own CD with
+\fBFile \(-> Open another asset folder\fR.
+.SH OPTIONS
+.TP
+.BI \-\-export " FILE"
+Export the card to PDF (the folded print sheet) or PNG (one side) without opening a window.
+.TP
+.BR \-\-side " front|inside|back"
+Side to export as PNG.
+.TP
+.BR \-\-paper " A4|Letter|Legal"
+Paper size; defaults to the card's saved setting.
+.TP
+.BI \-\-margin " MM"
+One minimum margin for all four edges.
+.TP
+.BI \-\-margins " LEFT RIGHT TOP BOTTOM"
+Four minimum margins in millimetres.
+.TP
+.B \-\-guides
+Include numbered fold guides.
+.TP
+.BR \-\-layout " quarter|half"
+\fBquarter\fR: all faces on one side of the sheet, folded twice.
+\fBhalf\fR: a two-page PDF (back and front, then the inside) for two-sided printing with
+flip on short edge, folded once. Defaults to the card's saved setting.
+.TP
+.B \-\-rotate\-side\-2
+With \fB\-\-layout half\fR, turn side 2 upside down for printers that need it.
+.TP
+.B \-\-test\-page
+Export a marked folding and printer test sheet.
+.TP
+.BI \-\-assets " FOLDER"
+Use CardShop Plus content from FOLDER (the folder containing CARDSHOP.INI).
+.TP
+.BI \-\-dpi " N"
+Export resolution, 36 to 600 (default 300).
+.TP
+.B \-\-version
+Show the version.
+.SH FILES
+.TP
+.I ~/.local/share/opencardshop/my\-library/
+My library: art/, cards/ and messages.json.
+.TP
+.I ~/.local/share/opencardshop/cardshop/
+An optional place for extracted CardShop Plus CD content.
+.TP
+.I ~/.config/opencardshop/settings.json
+The CardShop Plus folder chosen last time.
+.SH ENVIRONMENT
+.TP
+.B OPENCARDSHOP_HOME
+Keep settings, My library and caches in this one folder instead.
+.TP
+.B OPENCARDSHOP_NO_SYSTEM_FONTS
+When set, offer only bundled fonts.
+.TP
+.B OPENCARDSHOP_PYTHON
+Python interpreter used by the launcher.
+.SH PRINTING
+Print at Actual size / 100% with scaling turned off. The quarter layout prints one-sided and
+folds twice at the centre lines. The half layout prints two-sided with flip on short edge
+(lp \-o sides=two\-sided\-short\-edge) and folds once.

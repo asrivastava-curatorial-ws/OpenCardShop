@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-12",
+  "executable": "CARDSHOP.EXE",
+  "sha256": "2570a011ab396be084927c71e67d49bb8b38515e0ed9466fcbca5b81945205e0",
+  "runtime": "Wine 9 classic 32-bit on emulated Linux x86-64 guest",
+  "network": "disabled in test guest",
+  "started": true,
+  "legacy_card_opened": "BDAY/BDAY1.CMK",
+  "names_verified": {
+    "receiver": "Aditi",
+    "sender": "Ravi",
+    "visible_greeting": "Hey Aditi"
+  },
+  "print_command_reached": true,
+  "preview_window_opened": true,
+  "original_print_output_verified": false,
+  "limitation": "Modal print and preview clients rendered incompletely; no original print output was obtained.",
+  "physical_printer_available": false,
+  "screenshot": "docs/screenshots/original-birthday.png"
+}
